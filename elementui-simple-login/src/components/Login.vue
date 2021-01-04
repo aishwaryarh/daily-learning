@@ -5,16 +5,16 @@
 
             <div class="form-group">
                 <label>Email address</label>
-                <input type="email" class="form-control form-control-lg" />
-
-            <el-input placeholder="Please input" v-model="input"></el-input>
+                
+            <el-input placeholder="Please input"  size="large" v-model="input2"></el-input>
 
             </div>
             
             <div class="form-group">
                 <label>Password</label>
-                <input type="password" class="form-control form-control-lg" />
-            </div>
+                <el-input placeholder="Please input" size="large" v-model="input2"></el-input>
+
+               </div>
            
             <button type="submit" class="btn btn-dark btn-lg btn-block">Sign In</button>
 
